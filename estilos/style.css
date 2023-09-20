@@ -1,0 +1,125 @@
+header{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    position: static;
+    background-color: white;
+    border: 3px;
+    border-bottom-style: ridge;
+    border-color: rgba(0, 0, 0, 0.479);
+    background-color: rgba(255, 255, 255,);
+}
+
+.logo{
+    height: 28px;
+    width: 120px;
+    margin-left: 5%;
+    margin-top: 12px;
+}
+
+.izquierda{
+    height: 28px;
+    width: 120px;
+    float: left;
+    top: 5px;
+    flex: content;
+}
+
+.derecha{
+    left: auto;
+    float: right;
+    right: 50px;
+    top: 0px;
+}
+
+.alreadyUser{
+    margin: 3px;
+}
+
+body{
+
+}
+
+.main{
+    border-top: 20px rgb(27, 27, 27);
+    border-bottom: 20px rgb(27, 27, 27);
+    margin-left: 20%;
+    margin-top: 5%;
+
+}
+
+.botonSubmit{
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 160px;
+    height: 40px;
+    border-style: dashed;
+    color: rgba(0, 0, 0, 0.479);
+    border-color: rgba(0, 0, 0, 0.26);
+
+}
+
+.inputEmail{
+    width: 400px;
+    
+}
+
+.inputPassword{
+    width: 400px;
+}
+
+.terminos{
+    margin-top: 20px;
+}
+
+.legendPassword{
+    margin-top: 20px;
+}
+
+.iconoGoogle{
+    width: 30px;
+    height: 30px;
+    left: 5px;
+}
+
+.letrasGoogle{
+    float: right;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.googlediv{
+    background-color: rgb(25, 117, 255);
+    width: 180px;
+    height: 35px;
+}
+.facebookdiv{
+    background-color: rgb(7, 58, 134);
+    width: 180px;
+    height: 35px;
+}
+
+footer{
+    width: 100%;
+}
+
+.abajo{
+    border: 3px;
+    border-top-style: ridge;
+    border-color: rgba(0, 0, 0, 0.479);
+    background-color: rgba(255, 255, 255,);
+    list-style: none;
+    position: fixed;
+    bottom: 1px;
+    display: flex;
+    width: 100%;
+    bottom: 10px;
+}
+
+.abajo1{
+    margin-left: 30px;
+    margin-right: 120px;
+}
+.abajo2{
+    margin-right: 30px;
+}
